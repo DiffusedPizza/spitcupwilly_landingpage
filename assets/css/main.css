@@ -32,7 +32,13 @@ footer, header, hgroup, menu, nav, section {
 body {
 	line-height: 1;
 }
-
+/* BEGIN STYLING FOR EMAIL AND SOCIAL LINK FOOTER */
+.center {
+	width: auto;
+	margin-left: auto;
+	margin-right: auto;
+}
+/* END STYLING FOR EMAIL AND SOCIAL LINK FOOTER */
 ol, ul {
 	list-style: none;
 }
