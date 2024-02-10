@@ -51,6 +51,10 @@ body {
 	padding-top: 10px;
   }
 /* END IFRAME STYLING */
+/* CENTER TEXT */
+.title {
+	text-align: center;
+}
 /* BEGIN STYLING FOR EMAIL AND SOCIAL LINK FOOTER */
 .center {
 	width: auto;
