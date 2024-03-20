@@ -3783,7 +3783,21 @@ input, select, textarea {
 		}
 
 /* Main */
-
+		.mini-bg{
+			background-image: url(/images/willy-bio-mini-bg.jpg);
+			background-repeat: no-repeat;
+			background-size: contain;
+			background-position-x: center;
+			/* border: 3px solid red; */
+			color: #ffffff;
+			text-shadow: 0px 0px 5px black;
+			margin-left: auto !important;
+			margin-right: auto !important;
+			max-width: 900px;
+		}
+		.bio-title {
+			color: #ffffff;
+		}
 	#main {
 		background-color: #ffffff;
 		position: relative;
