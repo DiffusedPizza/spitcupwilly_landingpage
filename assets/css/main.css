@@ -3785,7 +3785,9 @@ input, select, textarea {
 /* Main */
 		.mini-bg{
 			background-image: url('../../images/willy-bio-mini-bg.jpg');
+			background-attachment: fixed;
 			background-repeat: no-repeat;
+			/* background-size: auto,								auto,														100% auto; */
 			background-size: contain;
 			background-position-x: center;
 			/* border: 3px solid red; */
@@ -3794,6 +3796,10 @@ input, select, textarea {
 			margin-left: auto !important;
 			margin-right: auto !important;
 			max-width: 900px;
+			height: 100vh;
+		}
+		.bg-txt {
+			text-align: center;
 		}
 		.bio-title {
 			color: #ffffff;
