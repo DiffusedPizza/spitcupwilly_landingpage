@@ -3785,21 +3785,23 @@ input, select, textarea {
 /* Main */
 		.mini-bg{
 			background-image: url('../../images/willy-bio-mini-bg.jpg');
-			background-attachment: fixed !important;
+			/* background-attachment: fixed !important; */
 			background-repeat: no-repeat;
-			/* background-size: auto,								auto,														100% auto; */
-			background-size: contain;
+			/* background-size: auto,	auto, 100% auto; */
+			background-size: cover;
 			background-position-x: center;
+			background-position-y: center;
 			/* border: 3px solid red; */
 			color: #ffffff;
 			text-shadow: 0px 0px 5px black;
 			overflow: hidden;
 			margin-left: auto !important;
 			margin-right: auto !important;
-			max-width: 900px;
 			/* height: 100vh; */
 		}
 		.bg-txt {
+			max-width: 900px;
+			margin: auto;
 			overflow: hidden;
 			text-align: center;
 		}
