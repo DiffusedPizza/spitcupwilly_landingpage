@@ -3784,7 +3784,7 @@ input, select, textarea {
 
 /* Main */
 		.mini-bg{
-			background-image: url(/images/willy-bio-mini-bg.jpg);
+			background-image: url('/images/willy-bio-mini-bg.jpg');
 			background-repeat: no-repeat;
 			background-size: contain;
 			background-position-x: center;
