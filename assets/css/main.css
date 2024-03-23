@@ -3793,12 +3793,14 @@ input, select, textarea {
 			/* border: 3px solid red; */
 			color: #ffffff;
 			text-shadow: 0px 0px 5px black;
+			overflow: hidden;
 			margin-left: auto !important;
 			margin-right: auto !important;
 			max-width: 900px;
-			height: 100vh;
+			/* height: 100vh; */
 		}
 		.bg-txt {
+			overflow: hidden;
 			text-align: center;
 		}
 		.bio-title {
